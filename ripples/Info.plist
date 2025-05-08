@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>cerapro-regular.ttf</string>
+		<string>cerapro-bold.ttf</string>
+		<string>cerapro-light.ttf</string>
+		<string>cerapro-black.ttf</string>
+		<string>cerapro-medium.ttf</string>
+	</array>
+</dict>
+</plist>

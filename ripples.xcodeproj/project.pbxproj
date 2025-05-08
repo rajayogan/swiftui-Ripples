@@ -29,9 +29,22 @@
 		240C8AFC2DCBC6440062BBAB /* ripplesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ripplesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		240C8B1D2DCBD4310062BBAB /* Exceptions for "ripples" folder in "ripples" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 240C8AE12DCBC6410062BBAB /* ripples */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		240C8AE42DCBC6410062BBAB /* ripples */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				240C8B1D2DCBD4310062BBAB /* Exceptions for "ripples" folder in "ripples" target */,
+			);
 			path = ripples;
 			sourceTree = "<group>";
 		};
@@ -398,6 +411,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ripples/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ripples/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -426,6 +441,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"ripples/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ripples/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
